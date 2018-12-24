@@ -3,9 +3,11 @@
 <head lang="en" dir="ltr">
   <meta charset="utf-8">
   <title>RCT</title>
+  <link rel="stylesheet" href="css/stylemaster.css">
 </head>
 <body>
   <h1 id="title">Random Coffee Trails</h1>
+<div id="form-box">
   <p id="description">We are creating a community of networking coffee drinkers<br>Get involved!</p>
   <form id="survey-form" class="" action="index.html" method="post">
     <div class="">
@@ -48,18 +50,20 @@
     <div class="">
       <label>Availablility:</label>
     </div>
-    <input type="checkbox" name="season1" value="Spring">Spring<br>
-    <input type="checkbox" name="season2" value="Summer">Summer<br>
-    <input type="checkbox" name="season3" value="Autumn">Autumn<br>
-    <input type="checkbox" name="season4" value="Winter">Winter<br>
+    <input type="checkbox" name="season1" value="1">Spring<br>
+    <input type="checkbox" name="season2" value="2">Summer<br>
+    <input type="checkbox" name="season3" value="3">Autumn<br>
+    <input type="checkbox" name="season4" value="4">Winter<br>
     <div class="">
       <label>Comments:</label>
     </div>
     <textarea name="name" rows="8" cols="50">Please add some comments</textarea>
     <div class="">
-      <input type="submit" name="submit" value="Submit">
+      <input id="submit" type="submit" name="submit" value="Submit">
       <input type="reset" name="reset" value="Reset">
     </div>
   </form>
+</div>
+<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
 </body>
 </html>
