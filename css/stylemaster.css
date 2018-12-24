@@ -1,0 +1,71 @@
+body {
+  background-image: url("coffee-background.jpg");
+  background-color: #CEB98F;
+  height: 750px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#title {
+  font-family: Tahoma;
+  text-align: center;
+  color: white;
+}
+#form-box {
+  background-color: rgba(255, 255, 255, 0.6);
+  max-width: 700px;
+  margin: auto;
+  padding: 15px;
+}
+p {
+  font-family: tahoma;
+  text-align: center;
+  padding: 10px;
+}
+.row {
+  display: block;
+  text-align: center;
+  max-width: 700px;
+  padding: 5px;
+  font-family: tahoma;
+}
+.col1 {
+  display: inline-block;
+  text-align: right;
+  width: 30%;
+  padding: 7px;
+  font-family: tahoma;
+  vertical-align: top;
+}
+.col2 {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  padding: 5px;
+  font-family: tahoma;
+}
+#number, #email, #name {
+  font-family: tahoma;
+  border-radius: 6px;
+  padding: 5px;
+}
+#dropdown {
+  font-family: tahoma;
+  height: 25px;
+}
+#comments {
+  font-family: tahoma;
+  border-radius: 6px
+}
+.buttons {
+  text-align: center;
+  height: 30px;
+}
+#submit, #reset {
+  width: 70px;
+  font-size: 15px;
+  font-family: tahoma;
+  border-radius: 6px;
+  background-color: #B2BEB5;
+  margin: 5px;
+}
